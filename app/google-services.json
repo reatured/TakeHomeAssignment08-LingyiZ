@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434495551477",
+    "firebase_url": "https://takehomeassignment08-lingyiz.firebaseio.com",
+    "project_id": "takehomeassignment08-lingyiz",
+    "storage_bucket": "takehomeassignment08-lingyiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434495551477:android:4540c67afd994441ab52bc",
+        "android_client_info": {
+          "package_name": "com.example.takehomeassignment08_lingyiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434495551477-m1k6qodo79uhkr06bobdhmssm2qe2v7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.takehomeassignment08_lingyiz",
+            "certificate_hash": "3f5d77411d8b17a82e196e85ede1f194d3f19b8c"
+          }
+        },
+        {
+          "client_id": "434495551477-1l0hsp8hpe7jap79rmdo6pd580ovpuh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAFPGA4sUJwsxyWPCEMm0o52i_OyxtITE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434495551477-1l0hsp8hpe7jap79rmdo6pd580ovpuh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
