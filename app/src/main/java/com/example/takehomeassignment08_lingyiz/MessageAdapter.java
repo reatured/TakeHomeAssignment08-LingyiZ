@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 public class MessageAdapter extends ArrayAdapter<Data> {
@@ -27,14 +29,16 @@ public class MessageAdapter extends ArrayAdapter<Data> {
 
         Data message = getItem(position);
 
-        boolean isPhoto = message.getPhotoUrl() != null;
+        boolean isPhoto = (message.getPhotoUrl() != null);
+        System.out.println(isPhoto + message.getPhotoUrl());
         if (isPhoto) {
             messageTextView.setVisibility(View.GONE);
+
             photoImageView.setVisibility(View.VISIBLE);
-            photoImageView.setImageResource(R.drawable.common_full_open_on_phone);
-//            Glide.with(photoImageView.getContext())
-//                    .load(message.getPhotoUrl())
-//                    .into(photoImageView);
+            Glide.with(photoImageView.getContext())
+                    .load(message.getPhotoUrl())
+                    .into(photoImageView);
+            System.out.println("load success");
         } else {
             messageTextView.setVisibility(View.VISIBLE);
             photoImageView.setVisibility(View.GONE);
